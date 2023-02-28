@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de contraseñas</h1>
+
+        <h2>Ingrese contraseña</h2>
+        <input type="password" id="password" name="password">
+        <h2>Verificar contraseña</h2>
+        <input type="password" id="confirm-password" name="confirm-password">
+        <p id="message"></p>
+        <button type="button" id="submit-btn">Enviar</button>
+    </div>
+
+    <div class=" Preguntas">
+        <h1>Seccion de preguntas</h1>
+
+        <p>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</p>
+        <p>Usar JavaScript para verificar la validez de los inputs de un formulario antes de enviar los datos al servidor puede mejorar la experiencia del usuario, ahorrar tiempo y recursos del servidor, y aumentar la seguridad del formulario.</p><br>
+
+        <p>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</p>
+        <p>Puedes deshabilitar javascript directamente del navegador o si no te puedes ir directamente a la página que es de interes o hacer directamente el form.submit u otra cosa colocando codigo javascript en la url y con eso se  salta la validación .</p><br>
+
+        <p>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</p>
+        <p>JavaScript se utiliza comúnmente para validar los datos que se ingresan en formularios o entradas de usuario en aplicaciones web, ya que puede proporcionar una validación rápida y eficiente del lado del cliente, sin necesidad de enviar los datos al servidor.<br>
+            La validación del lado del cliente es importante porque puede proporcionar una mejor experiencia de usuario al informar al usuario sobre cualquier error en tiempo real, en lugar de esperar a que se envíen los datos al servidor y recibir un error. el código JavaScript que realiza la validación se ejecuta en el navegador del usuario y, por lo tanto, puede ser modificado o desactivado por un atacante malintencionado. Es por eso que también se necesita validación en el servidor para garantizar que los datos enviados sean válidos y seguros.<br>
+            En resumen, la validación de JavaScript es útil para proporcionar una experiencia de usuario mejorada al informar al usuario sobre los errores de entrada en tiempo real, pero no es suficiente para garantizar la seguridad de los datos, y se necesita validación adicional en el lado del servidor para garantizar la seguridad de los datos.</p>
+
+
+    </div>
+    <script src="JS6/script.js"></script>
+    
+</body>
+</html>
