@@ -1,0 +1,239 @@
+<!--Laboratorio 3: CSS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+    <link rel="shortcut icon" href="/Laboratorio 1 images/compu_mac.png">
+    <link rel="stylesheet" href="css lab 3/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navegacion">
+            <button class="btnIni-propup">Inicio</button>
+            <button class="btnAce-popup">Acerca de mi</button>
+            <button class="btnPas-popup">Pasiones</button>
+            <button class="btnPreg-popup">Preguntas</button>
+            <button class="btnLogin-popup">Login</button>
+
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recuerdame</label>
+                    <a href="#">Olvido contraseña? </a>
+                </div>
+                <button type="submit" class="btn">Login </button>
+                <div class="login-register">
+                    <p>No tienes una cuenta?<a href="#" class="register-link">Registrar </a>
+                    </p>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registro</h2>
+            <from action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Acepto terminos y condiciones</label>
+                    
+                </div>
+                <button type="submit" class="btn">Registro</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta?<a href="#" class="login-link">Login </a></p>
+                </div>
+
+
+            </from>
+        </div>
+
+
+    </div>
+
+    <div class="preguntas">
+        <span class="icon-close2"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box question">
+            <h2>Preguntas</h2>
+            <form action="#">
+                <div class="scrollable"> 
+                <div class="input-quest">
+                    <p>Como ingeniero de software ¿cuál es tu recomendación sobre el uso de !important en un CSS?  </p><br>
+                    <div class="input-text"> 
+                        <p> El uso de !important en CSS debe ser evitado siempre que sea posible. Esto se debe a que !important anula cualquier estilo que haya sido establecido anteriormente para un elemento, lo que puede crear conflictos y hacer que el código sea más difícil de mantener.</p><br>
+
+                        
+
+                    </div><br>
+                    <div class="input-text">
+                        <p>Si se pone una imagen de fondo en una página HTML, ¿por qué debe escogerse con cuidado?</p><br>
+                        <p> la elección cuidadosa de una imagen de fondo es importante para garantizar la legibilidad del contenido, la velocidad de carga de la página, la coherencia con el contenido y la calidad visual de la página. </p><br>
+                    </div><br>
+                    <div class="input-text">
+                        <p> Como ingeniero de software, ¿cuál es tu recomendación al elegir las unidades de un propiedad de estilo entre %, px y pt?</p><br>
+                        <p>Es recomendable utilizar unidades absolutas para medidas físicas precisas y unidades relativas para diseños responsivos.
+
+
+
+
+                        </p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?</p><br>
+                        <p> El uso de una versión minimizada del CSS puede mejorar significativamente el rendimiento del sitio al reducir el tamaño del archivo, disminuir el número de solicitudes HTTP, mejorar la caché y optimizar la renderización.</p><br>
+
+                    </div><br>
+
+
+                </div>
+            </div>
+
+
+
+
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="pasiones">
+        <span class="icon-close3"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box passion">
+            <h2>Pasiones</h2>
+            <form action="#">
+                <div class="scrollable">
+                    <div class="input-pas">
+                        <p>Las cosas que me apasionan realizar es dibujar, hacer ejercicio, cocinar y jugar videojuegos. </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="acerca">
+        <span class="icon-close4"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box about">
+            <h2>Acerca de mi</h2>
+            <form action="#">
+                <div class="scrollable">
+                    <div class="input-abo">
+                        <p> Me llamo Francisco Couttolenc Ortiz, tengo 21 años, actualmente estudio la carrera de ITC, voy en cuarto semestre de la carrera, tengo 3 hermanos ambos mayores y vivo en Queretaro.</p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="footer-left">
+            <h3>Sobre nosotros</h3>
+            <p>Somos una institucion dedicada a fortalecer las habilidades de nuestros alumnos.</p>
+          </div>
+          <div class="footer-right">
+            <h3>Contacto</h3>
+            <ul>
+              <li><i class="fas fa-phone-alt"></i> Teléfono: +1 234 567 8901</li>
+              <li><i class="fas fa-envelope"></i> Correo electrónico: paco.couttolenc115@gmail.com</li>
+              <li><i class="fas fa-map-marker-alt"></i> Dirección: 123 Calle Antares, Queretaro</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <p>© 2023 TECMI. Todos los derechos reservados.</p>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+
+    
+    
+
+    <script src="JS3/script.js"> </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+      
+
+</body>
+</html>
+
