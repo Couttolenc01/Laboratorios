@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonacci</title>
-<<<<<<< HEAD
     <link rel="stylesheet" href="CSS4/style.css">
-=======
-    <link rel="stylesheet" href="/Laboratorios/Laboratorio 4/CSS4/style.css">
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3
 </head>
 <body>
     <div class="container">
@@ -79,18 +75,10 @@
 
 
   
-<<<<<<< HEAD
       <script src="JS4/script.js"></script>
-=======
-      <script src="/Laboratorios/Laboratorio 4/JS4/script.js"></script>
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3
     
 
   
     
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3

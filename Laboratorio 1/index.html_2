@@ -1,0 +1,323 @@
+<!--Laboratorio 1: Introduccion a las aplicaciones web-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+    <link rel="shortcut icon" href="/Laboratorio 1 images/compu_mac.png">
+    <link rel="stylesheet" href="css lab 1/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navegacion">
+            <button class="btnIni-propup">Inicio</button>
+            <button class="btnAce-popup">Acerca de mi</button>
+            <button class="btnPas-popup">Pasiones</button>
+            <button class="btnPreg-popup">Preguntas</button>
+            <button class="btnLogin-popup">Login</button>
+
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recuerdame</label>
+                    <a href="#">Olvido contraseña? </a>
+                </div>
+                <button type="submit" class="btn">Login </button>
+                <div class="login-register">
+                    <p>No tienes una cuenta?<a href="#" class="register-link">Registrar </a>
+                    </p>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registro</h2>
+            <from action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Acepto terminos y condiciones</label>
+                    
+                </div>
+                <button type="submit" class="btn">Registro</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta?<a href="#" class="login-link">Login </a></p>
+                </div>
+
+
+            </from>
+        </div>
+
+
+    </div>
+
+    <div class="preguntas">
+        <span class="icon-close2"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box question">
+            <h2>Preguntas</h2>
+            <form action="#">
+                <div class="scrollable"> 
+                <div class="input-quest">
+                    <p>¿Cuál es la diferencia entre Internet y la World Wide Web? </p><br>
+                    <div class="input-text"> 
+                        <p> Internet es la red global de computadoras que permite la comunicación y el intercambio de información, mientras que la World Wide Web es un servicio que se ejecuta en la parte superior de Internet que permite a los usuarios acceder y compartir información.</p><br>
+
+                        
+
+                    </div><br>
+                    <div class="input-text">
+                        <p>¿Cuáles son las partes de un URL?</p><br>
+                        <p> Protocolo, Nombre de dominio, Ruta del recurso, Parámetros, Ancla (protocolo://nombre_de_dominio/ruta_del_recurso?parámetros#ancla) </p><br>
+                    </div><br>
+                    <div class="input-text">
+                        <p> ¿Cuál es el propósito de los métodos HTTP: GET, HEAD, POST, PUT, PATCH, DELETE?</p><br>
+                        <p> Cada uno de los métodos HTTP tiene un propósito específico en la comunicación entre el cliente y el servidor.  GET se utiliza para obtener información, POST y PUT para enviar información, PATCH para actualizar parcialmente un recurso y DELETE para eliminar un recurso. HEAD se utiliza para obtener información sobre un recurso sin descargar todo su contenido.
+
+
+
+
+                        </p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Qué método HTTP se debe utilizar al enviar un formulario HTML, por ejemplo cuando ingresas tu usuario y contraseña en algún sitio? ¿Por qué?</p><br>
+                        <p> Se debe utilizar el método POST al enviar un formulario HTML que incluya información sensible como los datos de inicio de sesión, ya que proporciona seguridad y privacidad al usuario.</p><br>
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Qué método HTTP se utiliza cuando a través de un navegador web se accede a una página a través de un URL?</p><br>
+                        <p> El método HTTP utilizado cuando se accede a una página a través de un URL en un navegador web es el método HTTP GET.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> Un servidor web devuelve una respuesta HTTP con código 200. ¿Qué significa esto? ¿Ocurrió algún error?</p><br>
+                        <p>Una respuesta HTTP con código 200 indica que la solicitud se procesó correctamente y no ocurrió ningún error.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 404? ¿Por qué?</p><br>
+                        <p>Es responsabilidad del desarrollador corregir un error 404 reportado por un usuario para garantizar la funcionalidad y la accesibilidad del sitio web.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 500? ¿Por qué?</p><br>
+                        <p>Es responsabilidad del desarrollador corregir un error 500 reportado por un usuario para garantizar la funcionalidad y la accesibilidad del sitio web.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Qué significa que un atributo HTML5 esté depreciado o desaprobado (deprecated)? Menciona algunos elementos de HTML 4 que en HTML5 estén desaprobados.</p><br>
+                        <p>Cuando un atributo HTML5 está "depreciado" o "desaprobado" (en inglés "deprecated"), significa que se considera obsoleto o en desuso, y que puede ser eliminado en versiones futuras de HTML. Esto no significa que el atributo ya no funcione, pero se recomienda no usarlo ya que puede haber alternativas más adecuadas y modernas.<br>
+                            Basefont: Se recomienda usar CSS para definir la fuente base del documento en lugar de este elemento, Big: Se recomienda usar CSS para definir la fuente de tamaño grande en lugar de este elemento.</p><br>
+
+
+                    </div><br>
+                    
+
+                    <div class="input-text"><br>
+                        <!-- <p> ¿Cuáles son las diferencias principales entre HTML 4 y HTML5?</p><br> -->
+                        <!-- <p> HTML5 ha mejorado significativamente la funcionalidad y la flexibilidad de la web, con nuevas características que mejoran la experiencia del usuario, la accesibilidad y la compatibilidad con dispositivos móviles, además de proporcionar una estructura semántica clara para el contenido web.</p> <br> -->
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p> ¿Cuáles son las diferencias principales entre HTML 4 y HTML5?</p><br>
+                        <p> HTML5 ha mejorado significativamente la funcionalidad y la flexibilidad de la web, con nuevas características que mejoran la experiencia del usuario, la accesibilidad y la compatibilidad con dispositivos móviles, además de proporcionar una estructura semántica clara para el contenido web.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p>¿Qué componentes de estructura y estilo tiene una tabla?</p><br>
+                        <p>Componentes estructurales: Encabezado de la tabla, Cuerpo de la tabla, Filas, Columnas y Celdas. Mientras que los componentes de estilo son el Borde, Fondo, Fuente, Alineación y Resaltado.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p>¿Cuáles son los principales controles de una forma HTML5?</p><br>
+                        <p>Algunos de los principales controles de formularios en HTML5 son: Texto, Área de texto, Checkbox, Radio, Selección, Botón, Fecha, Hora, Número y Archivo.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p>¿Qué tanto soporte HTML5 tiene el navegador que utilizas? </p><br>
+                        <p>476 de 555 puntos, en Google Chrome.</p><br>
+
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p>¿Cuál es el ciclo de vida de los sistemas de información?</p><br>
+                        <p>El ciclo de vida de los sistemas de información es un modelo que describe las diferentes etapas por las que pasa un sistema de información, desde la identificación de la necesidad de información hasta su implementación y mantenimiento.</p><br>
+
+                    </div><br>
+
+                    <div class="input-text"><br>
+                        <p>¿Cuál es el ciclo de desarrollo de sistemas de información?</p><br>
+                        <p>El ciclo de desarrollo de sistemas de información (SDLC, por sus siglas en inglés) es un proceso secuencial y estructurado que se utiliza para desarrollar y mantener sistemas de información. El SDLC consta de varias etapas que describen los pasos necesarios para planificar, diseñar, implementar y mantener un sistema de información.</p><br>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="pasiones">
+        <span class="icon-close3"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box passion">
+            <h2>Pasiones</h2>
+            <form action="#">
+                <div class="scrollable">
+                    <div class="input-pas">
+                        <p>Las cosas que me apasionan realizar es dibujar, hacer ejercicio, cocinar y jugar videojuegos. </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="acerca">
+        <span class="icon-close4"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box about">
+            <h2>Acerca de mi</h2>
+            <form action="#">
+                <div class="scrollable">
+                    <div class="input-abo">
+                        <p> Me llamo Francisco Couttolenc Ortiz, tengo 21 años, actualmente estudio la carrera de ITC, voy en cuarto semestre de la carrera, tengo 3 hermanos ambos mayores y vivo en Queretaro.</p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="footer-left">
+            <h3>Sobre nosotros</h3>
+            <p>Somos una institucion dedicada a fortalecer las habilidades de nuestros alumnos.</p>
+          </div>
+          <div class="footer-right">
+            <h3>Contacto</h3>
+            <ul>
+              <li><i class="fas fa-phone-alt"></i> Teléfono: +1 234 567 8901</li>
+              <li><i class="fas fa-envelope"></i> Correo electrónico: paco.couttolenc115@gmail.com</li>
+              <li><i class="fas fa-map-marker-alt"></i> Dirección: 123 Calle Antares, Queretaro</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <p>© 2023 TECMI. Todos los derechos reservados.</p>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+
+    
+    
+
+    <script src="Java Script/script.js"> </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+      
+
+</body>
+</html>
+

@@ -8,11 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 1</title>
     <link rel="shortcut icon" href="/Laboratorio 1 images/compu_mac.png">
-<<<<<<< HEAD
     <link rel="stylesheet" href="css lab 3/style.css">
-=======
-    <link rel="stylesheet" href="/Laboratorios/Laboratorio 3/css lab 3/style.css">
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3
 </head>
 
 <body>
@@ -231,11 +227,7 @@
     
     
 
-<<<<<<< HEAD
     <script src="JS3/script.js"> </script>
-=======
-    <script src="/Laboratorios/Laboratorio 3/JS3/script.js"> </script>
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
@@ -245,9 +237,3 @@
 </body>
 </html>
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3

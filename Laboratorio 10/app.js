@@ -71,4 +71,8 @@ const server = http.createServer((request,response) => {
     }
 });
 
+<<<<<<< HEAD
 server.listen(3000);
+=======
+server.listen(3000);
+>>>>>>> a3010fe7a4428885b18b6c799541ba75b1082ac3
