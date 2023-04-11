@@ -21,5 +21,5 @@ app.use(session({
 }));
 
 app.listen(9000, function() {
-  console.log('Server listening on port 3000');
+  console.log('Server listening on port 9000');
 });
