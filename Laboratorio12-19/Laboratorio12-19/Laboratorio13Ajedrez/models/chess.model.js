@@ -47,10 +47,10 @@ exports.getRapidGamesForMonth = (username, year, month) => {
       if(games[key].time_class == 'rapid'){
         const regex = /\{[^{}]+\}/g;
         if (games[key].white.username.toLowerCase() === username.toLowerCase()) {
-          console.log("white")
+          console.log("white")t
           perspective = 'white';
         }
-        else if (games[key].black.username.toLowerCase() === username.toLowerCase()) {
+        else if (games[key].black.username.toLowerCase() === username.toLowerCase()t) {
           console.log("black")
           perspective = 'black';
         }    
