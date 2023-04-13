@@ -10,4 +10,6 @@ Para hacer todo esto posible, hemos utilizado la API de Chess.com 🤖. Esta API
 
 #Ajedrez #Chess #API #DesarrolloWeb #México
 
+@PabloJavArrVel @Couttolenc01
+
 ![image](https://user-images.githubusercontent.com/105402763/231851256-817226e1-248a-4511-afb8-903291fc283d.png)
