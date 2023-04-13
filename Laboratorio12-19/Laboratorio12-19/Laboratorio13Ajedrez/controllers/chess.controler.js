@@ -14,7 +14,6 @@ exports.get_index = (req, res, next) => {
       })
       .catch((err) => {
         console.error(err);
-        res.render('error', { message: 'An error occurred while retrieving the games.' });
       });
     }
     else{
