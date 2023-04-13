@@ -9,3 +9,5 @@ Para hacer todo esto posible, hemos utilizado la API de Chess.com 🤖. Esta API
 ¡Esperamos que disfruten explorando las partidas y jugadas en nuestro sitio web! ♟️
 
 #Ajedrez #Chess #API #DesarrolloWeb #México
+
+![image](https://user-images.githubusercontent.com/105402763/231851256-817226e1-248a-4511-afb8-903291fc283d.png)
